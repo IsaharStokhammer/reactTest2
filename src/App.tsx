@@ -12,7 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Reception />} />
           
-          <Route path="/floor/:floor" element={<PrivateRoute component={<Floor />} />} />
+          <Route path="/floor/:index" element={<PrivateRoute component={<Floor />} />} />
          
           {/* <Route path="/floor/:index" element={<Floor />} /> */}
           <Route path="/forbidden" element={<Forbidden />} />

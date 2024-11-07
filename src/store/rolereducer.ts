@@ -1,6 +1,5 @@
 //FILL HERE 3.2
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
-import { Role } from "../types";
 
 const rolesArr = ["Unknown Personnel" , "Guest" , "Student" , "Developer" , "Executive Personnel"]
 
