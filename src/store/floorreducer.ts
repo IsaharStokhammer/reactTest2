@@ -8,6 +8,8 @@ const floorsSlice = createSlice({
   name: "floors",
   reducers: {
     changeAccess: (state, action: PayloadAction<number>) => {
+      console.log("changed access");
+      
       state.floorAccess[action.payload] = !state.floorAccess[action.payload];
     },
   },

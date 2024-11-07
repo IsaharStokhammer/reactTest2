@@ -16,6 +16,7 @@ const Floor: React.FC = () => {
   const activities = getListOfActivities();
 
   const handleClick = () => {
+    
     const isVerified = useIsVerified({ activity: thisFloorActivity, role: currentRole, activities });
     if (isVerified) {
       alert(`You are currently ${thisFloorActivity}`);
